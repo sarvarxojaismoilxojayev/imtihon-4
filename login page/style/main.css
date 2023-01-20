@@ -1,0 +1,110 @@
+body {
+  background: url(../img/photo_2023-01-19_13-20-55.jpg) center/cover;
+}
+
+.box-1 {
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  cursor: text;
+}
+
+input {
+  width: 300px;
+  margin: auto;
+  background: none;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  height: 45px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+input::-moz-placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+
+input:-ms-input-placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+
+.send-button {
+  width: 300px;
+  margin: auto;
+  height: 45px;
+  border: none;
+  color: #0D75FF;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input-1 {
+  text-transform: lowercase;
+}
+
+.text-5 {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: sans-serif;
+  position: absolute;
+  right: 500px;
+  top: 500px;
+  width: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.icon-user {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 48px;
+  left: 510px;
+  cursor: pointer;
+  max-width: 100px;
+}
+
+.icon-lock {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 48px;
+  left: 510px;
+  cursor: pointer;
+  max-width: 100px;
+}
+
+/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */

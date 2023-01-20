@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    text-decoration: none;
+    // font-family: 'sans-serif';
+}
+
+body {
+    background: #F8FAFD;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+img {
+    user-select: none;
+}
