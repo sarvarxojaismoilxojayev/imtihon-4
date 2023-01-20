@@ -28,6 +28,6 @@ form.addEventListener("submit", (e) => {
 let logout = document.querySelector(".btn")
 
 logout.addEventListener("click", (e) => {
-    location.replace("../login page/index.html")
+    location.replace("../index.html")
 })
 

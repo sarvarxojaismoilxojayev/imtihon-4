@@ -38,7 +38,7 @@ form.addEventListener("submit", (e) => {
       if (data.token) {
         console.log("tori");
         window.localStorage.setItem("token", data.token);
-        window.location.replace("../book/index.html");
+        window.location.replace("./book/index.html");
       } else {
         alert("login hato")
         login.value = null;
